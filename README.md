@@ -12,15 +12,15 @@ As the code is implemented in MATLAB, an installed MATLAB version is necessary. 
 ## Structure and Usage
 
 The variational radar model itself is provided as .mat-File in the folder model/. It is given as four-dimensional Student's t mixture where the dimensions are
-1: x'   - aspect angle under which the sensor sees the vehicle,
-2: z'_x - x-coordinate of the measurement in object coordinates,
-3: z'_y - y-coordinate of the measurement in object coordinates,
+1: x'   - aspect angle under which the sensor sees the vehicle,  
+2: z'_x - x-coordinate of the measurement in object coordinates,  
+3: z'_y - y-coordinate of the measurement in object coordinates,  
 4: z'_d - Doppler error.
 
 The mixture density is a struct with fields
-roh    - vector of mixing coefficients,
-gamma  - 4x50 matrix where the i-th column contains the mean vector of the i-th Student's t density,
-nu     - vector of degrees of freedom, the i-th entry corresponds to the i-th component,
+roh    - vector of mixing coefficients,  
+gamma  - 4x50 matrix where the i-th column contains the mean vector of the i-th Student's t density,  
+nu     - vector of degrees of freedom, the i-th entry corresponds to the i-th component,  
 Htilde - 4x4x50 matrix where the i-th slice contains the precision matrix of the i-th component.
 
 The script plotVariationalRadarModel.m creates exemplary views of the model by computing different marginal and conditional densities.
@@ -33,12 +33,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 Please cite our original paper if you use our code for your research.
 
-@misc{Scheel.2018,
- author = {Scheel, Alexander and Dietmayer, Klaus},
- year = {2018},
- title = {{Tracking Multiple Vehicles Using a Variational Radar Model}},
- url = {https://arxiv.org/abs/1711.03799},
- archivePrefix = {arXiv},
- primaryClass = {eess.SP},
- eprint = {1711.03799v2}
+@misc{Scheel.2018,  
+ author = {Scheel, Alexander and Dietmayer, Klaus},  
+ year = {2018},  
+ title = {{Tracking Multiple Vehicles Using a Variational Radar Model}},  
+ url = {https://arxiv.org/abs/1711.03799},  
+ archivePrefix = {arXiv},  
+ primaryClass = {eess.SP},  
+ eprint = {1711.03799v2}  
 }
