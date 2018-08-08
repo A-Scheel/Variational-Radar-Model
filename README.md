@@ -11,13 +11,13 @@ As the code is implemented in MATLAB, an installed MATLAB version is necessary. 
 
 ## Structure and Usage
 
-The variational radar model itself is provided as .mat-File in the folder model/. It is given as four-dimensional Student's t mixture where the dimensions are
+The variational radar model itself is provided as .mat-File in the folder model/. It is given as four-dimensional Student's t mixture where the dimensions are  
 1: x'   - aspect angle under which the sensor sees the vehicle,  
 2: z'_x - x-coordinate of the measurement in object coordinates,  
 3: z'_y - y-coordinate of the measurement in object coordinates,  
 4: z'_d - Doppler error.
 
-The mixture density is a struct with fields
+The mixture density is a struct with fields  
 roh    - vector of mixing coefficients,  
 gamma  - 4x50 matrix where the i-th column contains the mean vector of the i-th Student's t density,  
 nu     - vector of degrees of freedom, the i-th entry corresponds to the i-th component,  
