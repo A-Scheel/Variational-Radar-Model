@@ -34,12 +34,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 Please cite our original paper if you use our code for your research.
 
 @misc{Scheel.2019,  
- author = {Scheel, Alexander and Dietmayer, Klaus},
- journal={IEEE Transactions on Intelligent Transportation Systems}, 
- title={Tracking Multiple Vehicles Using a Variational Radar Model},
- year={2019},
- month={Oct},
- volume={20},
- number={10},
- pages={3721-3736}
+ author = {Scheel, Alexander and Dietmayer, Klaus},  
+ journal={IEEE Transactions on Intelligent Transportation Systems},  
+ title={Tracking Multiple Vehicles Using a Variational Radar Model},  
+ year={2019},  
+ month={Oct},  
+ volume={20},  
+ number={10},  
+ pages={3721-3736}  
 }
