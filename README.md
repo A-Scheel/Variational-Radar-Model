@@ -3,7 +3,7 @@
 This repository provides MATLAB code that accompanies the paper "Tracking Multiple Vehicles Using a Variational Radar Model" by Alexander Scheel and Klaus Dietmayer. See below for the full citation. The variational radar model provides a probabilistic model of radar measurements (i.e. radar detections) from vehicles. It can be used for tracking other vehicles in autonomous driving and driver assistance system applications. The repository contains the model itself as well as scripts for ploting different densities that can be deduced. Please refer to the paper for a detailed description of the model.
 
 Paper reference:
-Alexander Scheel and Klaus Dietmayer, "Tracking Multiple Vehicles Using a Variational Radar Model", 2018. arXiv: 1711.03799v2 `[eess.SP]`.
+Alexander Scheel and Klaus Dietmayer, "Tracking Multiple Vehicles Using a Variational Radar Model", in IEEE Transactions on Intelligent Transportation Systems, vol. 20, no. 10, pp. 3721-3736, Oct. 2019.
 
 ## Prerequisites
 
@@ -33,12 +33,13 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 Please cite our original paper if you use our code for your research.
 
-@misc{Scheel.2018,  
- author = {Scheel, Alexander and Dietmayer, Klaus},  
- year = {2018},  
- title = {{Tracking Multiple Vehicles Using a Variational Radar Model}},  
- url = {https://arxiv.org/abs/1711.03799},  
- archivePrefix = {arXiv},  
- primaryClass = {eess.SP},  
- eprint = {1711.03799v2}  
+@misc{Scheel.2019,  
+ author = {Scheel, Alexander and Dietmayer, Klaus},
+ journal={IEEE Transactions on Intelligent Transportation Systems}, 
+ title={Tracking Multiple Vehicles Using a Variational Radar Model},
+ year={2019},
+ month={Oct},
+ volume={20},
+ number={10},
+ pages={3721-3736}
 }
